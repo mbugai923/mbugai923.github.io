@@ -29,7 +29,15 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
-body {
+h2.name {
+	font-size: 75%;
+	color: #040100;
+	background-color:rgba(255, 255, 255, 0.45);
+	text-align: center !important;
+	
+}
+
+	body {
 	line-height: 1;
 }
 
@@ -2624,7 +2632,7 @@ input, select, textarea {
 			color: #ffffff;
 		}
 
-		#header h2, #header h3, #header h4, #header h5, #header h6 {
+		#header h3, #header h4, #header h5, #header h6 {
 			color: #ffffff;
 		}
 
@@ -2964,10 +2972,7 @@ input, select, textarea {
 		display: none !important;
 	}
 
-	body.is-touch #header {
-		background-attachment: scroll;
-		background-size: auto, cover;
-	}
+	
 
 	body.is-touch .poptrox-popup .nav-next,
 	body.is-touch .poptrox-popup .nav-previous,
@@ -3050,9 +3055,7 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				background-attachment: scroll;
-				background-position: top left, center center;
-				background-size: auto,		cover;
+				
 				left: auto;
 				padding: 6em 4em;
 				position: relative;
@@ -3073,7 +3076,7 @@ input, select, textarea {
 		/* Footer */
 
 			#footer {
-				background-attachment: scroll;
+	
 				background-color: #1f1815;
 				background-image: url("images/overlay.png"), url("../../images/bg.jpg");
 				background-position: top left,						bottom center;
