@@ -1,6 +1,7 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic");
 
+
 /*
 	Strata by HTML5 UP
 	html5up.net | @ajlkn
@@ -30,15 +31,47 @@ footer, header, hgroup, menu, nav, section {
 	display: block;}
 
 h2.name {
-	font-size: 75%;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 85%;
+	font-weight: 550;
 	color: #040100;
-	background-color:rgba(255, 255, 255, 0.45);
+	background-color:rgba(255, 255, 255, 0.5);
 	text-align: center !important;
-	
+	padding-top: 0.in;
+	padding-bottom: 0in;
+}
+img {
+	width: 200px;
 }
 
-	body {
-	line-height: 1;
+h1 {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 200%;
+	font-weight: 700;
+	color: black !important;
+	background-color: rgba(255, 255, 255, 0.5);
+	padding-bottom: 0in;
+}
+
+h2.second {
+	font-size: 150%;
+	background-color: #d5d3be;
+}
+
+h3.cheesecake {
+	background-color: #98a28a;
+}
+
+h3.brownies {
+	background-color: #98a28a;
+}
+
+h3.cookies {
+	background-color: #98a28a;
+}
+
+h3 {
+	font-size: 120%;
 }
 
 ol, ul {
@@ -63,10 +96,6 @@ body {
 	-webkit-text-size-adjust: none;
 }
 
-mark {
-	background-color: transparent;
-	color: inherit;
-}
 
 input::-moz-focus-inner {
 	border: 0;
@@ -90,9 +119,6 @@ input, select, textarea {
 		box-sizing: inherit;
 	}
 
-	body {
-		background: #fff;
-	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 			-moz-animation: none !important;
@@ -105,14 +131,16 @@ input, select, textarea {
 			transition: none !important;
 		}
 
-	body, input, select, textarea {
-		color: #a2a2a2;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
-		font-size: 16pt;
-		font-weight: 400;
+	body, textarea {
+		font-family: 'Times New Roman', Times, serif
+		font-size: 10pt !important;
+		font-weight: 100;
 		line-height: 1.75em;
 	}
 
+	input {
+		font-family: 'Libre Baskerville', serif;
+	}
 	a {
 		-moz-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
@@ -129,10 +157,6 @@ input, select, textarea {
 			text-decoration: none;
 		}
 
-	strong, b {
-		color: #787878;
-		font-weight: 400;
-	}
 
 	em, i {
 		font-style: italic;
@@ -142,30 +166,28 @@ input, select, textarea {
 		margin: 0 0 2em 0;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
-		color: #787878;
-		font-weight: 400;
+h2, h3, h4, h5, h6 {
+		color: black;
+		font-family: 'Libre Baskerville', serif;
+		font-weight: 700;
 		line-height: 1em;
 		margin: 0 0 1em 0;
 	}
 
-		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+		h2 a, h3 a, h4 a, h5 a, h6 a {
 			color: inherit;
 			text-decoration: none;
 		}
 
 	h1 {
-		font-size: 2em;
 		line-height: 1.5em;
 	}
 
 	h2 {
-		font-size: 1.5em;
 		line-height: 1.5em;
 	}
 
 	h3 {
-		font-size: 1.25em;
 		line-height: 1.5em;
 	}
 
@@ -207,6 +229,7 @@ input, select, textarea {
 		}
 
 	blockquote {
+		font-family: 'Libre Baskerville', serif;
 		border-left: solid 6px #efefef;
 		font-style: italic;
 		margin: 0 0 2em 0;
@@ -214,23 +237,26 @@ input, select, textarea {
 	}
 
 	code {
+		font-family: 'Libre Baskerville', serif;
 		background: #f7f7f7;
 		border-radius: 0.35em;
 		border: solid 2px #efefef;
-		font-family: "Courier New", monospace;
+		font-family: 'Libre Baskerville', serif;
 		font-size: 0.9em;
 		margin: 0 0.25em;
 		padding: 0.25em 0.65em;
 	}
 
 	pre {
+		font-family: 'Libre Baskerville', serif;
 		-webkit-overflow-scrolling: touch;
-		font-family: "Courier New", monospace;
+		font-family: 'Libre Baskerville', serif;
 		font-size: 0.9em;
 		margin: 0 0 2em 0;
 	}
 
 		pre code {
+			font-family: 'Libre Baskerville', serif;
 			display: block;
 			line-height: 1.75em;
 			padding: 1em 1.5em;
@@ -252,6 +278,7 @@ input, select, textarea {
 /* Container */
 
 	.container {
+		font-family: 'Libre Baskerville', serif;
 		margin: 0 auto;
 		max-width: calc(100% - 4em);
 		width: 100%;
@@ -301,6 +328,7 @@ input, select, textarea {
 /* Row */
 
 	.row {
+		font-family: 'Libre Baskerville', serif;
 		display: flex;
 		flex-wrap: wrap;
 		box-sizing: border-box;
@@ -1773,33 +1801,29 @@ input, select, textarea {
 	}
 
 	header p {
-		color: #b2b2b2;
 		position: relative;
 		margin: 0 0 1.5em 0;
 	}
 
-	header h2 + p {
-		font-size: 1.25em;
+	header h2 {
 		margin-top: -1em;
 		line-height: 1.5em;
 	}
 
-	header h3 + p {
-		font-size: 1.1em;
+	header h3  {
 		margin-top: -0.8em;
 		line-height: 1.5em;
 	}
 
-	header h4 + p,
-	header h5 + p,
-	header h6 + p {
+	header h4 ,
+	header h5 ,
+	header h6  {
 		font-size: 0.9em;
 		margin-top: -0.6em;
 		line-height: 1.5em;
 	}
 
 	header.major h2 {
-		font-size: 2em;
 	}
 
 /* Form */
@@ -1867,9 +1891,6 @@ input, select, textarea {
 			background: #fff;
 		}
 
-		select:focus::-ms-value {
-			background-color: transparent;
-		}
 
 		select::-ms-expand {
 			display: none;
@@ -1923,7 +1944,7 @@ input, select, textarea {
 				text-rendering: auto;
 				line-height: 1;
 				text-transform: none !important;
-				font-family: 'Font Awesome 5 Free';
+				font-family: 'Libre Baskerville', serif;
 				font-weight: 900;
 			}
 
@@ -1966,22 +1987,22 @@ input, select, textarea {
 	}
 
 	::-webkit-input-placeholder {
-		color: #b2b2b2 !important;
+		color: #b2b2b2 
 		opacity: 1.0;
 	}
 
 	:-moz-placeholder {
-		color: #b2b2b2 !important;
+		color: #b2b2b2 
 		opacity: 1.0;
 	}
 
 	::-moz-placeholder {
-		color: #b2b2b2 !important;
+		color: #b2b2b2;
 		opacity: 1.0;
 	}
 
 	:-ms-input-placeholder {
-		color: #b2b2b2 !important;
+		color: #b2b2b2 ;
 		opacity: 1.0;
 	}
 
@@ -2023,7 +2044,7 @@ input, select, textarea {
 			text-rendering: auto;
 			line-height: 1;
 			text-transform: none !important;
-			font-family: 'Font Awesome 5 Free';
+			font-family: 'Libre Baskerville', serif;
 			font-weight: 400;
 		}
 
@@ -2040,7 +2061,7 @@ input, select, textarea {
 		}
 
 		.icon.brands:before {
-			font-family: 'Font Awesome 5 Brands';
+			font-family: 'Libre Baskerville', serif;
 		}
 
 /* Image */
@@ -2080,7 +2101,6 @@ input, select, textarea {
 				transition: opacity 0.2s ease-in-out;
 				border-radius: 0.35em;
 				border: solid 3px rgba(255, 255, 255, 0.5);
-				color: #fff;
 				content: 'View';
 				display: inline-block;
 				font-size: 0.8em;
@@ -2388,7 +2408,7 @@ input, select, textarea {
 		}
 
 			table tbody tr:nth-child(2n + 1) {
-				background-color: #f7f7f7;
+			
 			}
 
 		table td {
@@ -2416,7 +2436,6 @@ input, select, textarea {
 		}
 
 			table.alt tbody tr td {
-				border: solid 2px #efefef;
 				border-left-width: 0;
 				border-top-width: 0;
 			}
@@ -2570,7 +2589,7 @@ input, select, textarea {
 		}
 
 		.work-item h3 {
-			font-size: 1em;
+			
 			margin: 0 0 0.5em 0;
 		}
 
@@ -2602,7 +2621,6 @@ input, select, textarea {
 		background-color: #1f1815;
 		background-image: url(../../images/baking.jpg);
 		background-size: cover;								
-		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
 		left: 0;
 		padding: 8em 4em;
@@ -2628,17 +2646,12 @@ input, select, textarea {
 			margin: 0 0 2em 0;
 		}
 
-		#header strong, #header b {
-			color: #ffffff;
-		}
+		
 
-		#header h3, #header h4, #header h5, #header h6 {
-			color: #ffffff;
-		}
+		
 
 		#header h1 {
-			color: rgba(255, 255, 255, 0.5);
-			font-size: 1.35em;
+			
 			line-height: 1.75em;
 			margin: 0;
 		}
@@ -2809,7 +2822,7 @@ input, select, textarea {
 				text-rendering: auto;
 				line-height: 1;
 				text-transform: none !important;
-				font-family: 'Font Awesome 5 Free';
+				font-family: 'Libre Baskerville', serif;
 				font-weight: 900;
 			}
 
@@ -2858,7 +2871,7 @@ input, select, textarea {
 				text-rendering: auto;
 				line-height: 1;
 				text-transform: none !important;
-				font-family: 'Font Awesome 5 Free';
+				font-family: 'Libre Baskerville', serif;
 				font-weight: 900;
 			}
 
@@ -2921,7 +2934,7 @@ input, select, textarea {
 				text-rendering: auto;
 				line-height: 1;
 				text-transform: none !important;
-				font-family: 'Font Awesome 5 Free';
+				font-family: 'Libre Baskerville', serif;
 				font-weight: 900;
 			}
 
@@ -3003,10 +3016,6 @@ input, select, textarea {
 				width: 30%;
 			}
 
-				#header h1 {
-					font-size: 1.25em;
-				}
-
 					#header h1 br {
 						display: none;
 					}
@@ -3065,9 +3074,6 @@ input, select, textarea {
 				display: block;
 			}
 
-				#header h1 {
-					font-size: 1.75em;
-				}
 
 					#header h1 br {
 						display: inline;
@@ -3122,18 +3128,6 @@ input, select, textarea {
 
 		/* Basic */
 
-			h1 {
-				font-size: 1.5em;
-			}
-
-			h2 {
-				font-size: 1.2em;
-			}
-
-			h3 {
-				font-size: 1em;
-			}
-
 		/* Section/Article */
 
 			section.special, article.special {
@@ -3160,9 +3154,7 @@ input, select, textarea {
 				padding: 2.25em 1.5em;
 			}
 
-				#header h1 {
-					font-size: 1.35em;
-				}
+				
 
 		/* Footer */
 
